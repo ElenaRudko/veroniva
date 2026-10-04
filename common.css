@@ -1,0 +1,11 @@
+.tag{
+    font-weight: 600;
+    color: white;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}

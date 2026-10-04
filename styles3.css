@@ -1,0 +1,64 @@
+[contenteditable="true"]:empty:not(:focus):before {
+content: attr(data-text);
+}
+*{
+    font-family: "Montserrat", sans-serif;
+}
+.info-container span{
+    color:rgba(136, 136, 136, 1) ;
+    font-weight: 400;
+}
+.info-container{
+    margin-top: 30px;
+    margin-bottom: 19px;
+}
+.info-container select{
+    font-weight: 600;
+    border: none;
+}
+h1{
+    border: none;
+    color: black;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 36px;
+}
+.image-container{
+    background-color:rgba(196, 196, 196, 1) ;
+    width: 780px;
+    height: 407px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 34px;
+}
+form{
+    margin: 0 auto;
+    width: 780px;
+}
+.button-container{
+   display: flex;
+    gap: 33px;
+    justify-content:flex-end;
+    width: 100%;
+}
+.button-container button, .add-button{
+    border: none;
+}
+.add-button{
+ color: white;
+   background-color: rgb(255, 0, 111);
+    width: 207px;
+    height: 49px;
+    margin-top: 11px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.full-text{
+    margin-bottom: 65px;
+}
+ .button-container .decline-button{
+   background-color: white;
+   font-weight: 500;
+   font-size:14px;
+ }

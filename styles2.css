@@ -1,0 +1,148 @@
+.full-news-container .info-container{
+    display: flex;
+    justify-content: left;
+    align-items:flex-start;
+}
+
+.statistics-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   height:570px;
+   width: 98px;
+  gap: 10px;
+}
+.full-news-container{
+    width:781px;
+}
+main{
+    width: 1230px;
+}
+.statistics-container div img{
+    margin-right: 13px;
+    height: 20px;
+}
+.statistics-container div{
+    color: #888888;
+}
+.full-news-container  h1{
+   font-size: 35px;
+   margin-top: 10px;
+   margin-bottom:33px;
+}
+.full-news-container .computer{
+    margin-bottom:34px ;
+    width: 781px;
+}
+.full-news-container .full-text p{
+    margin-bottom: 34px;
+    line-height: 150%;
+}
+.comments-container .name span{
+    color: #888888;
+}
+.name{
+    border-bottom: 1px #ECECEC solid;
+    padding-bottom: 16px;
+    margin-bottom: 44px;
+}
+.user-comment-image{
+    width: 69px;
+    height: 69px;
+    border-radius:50%;
+}
+input{
+    border: none;
+    border-bottom: 1px solid #ECECEC;
+    width: 100%;
+    padding: 10px;
+}
+.add-container{
+    display: flex;
+    gap: 21px;
+}
+.button-container{
+    display: flex;
+    gap: 33px;
+    justify-content:flex-end;
+    width: 100%;
+}
+.button-container button{
+    font-weight: 500;
+    font-size: 14px;
+    border: none;
+}
+.add-button{
+    color: white;
+   background-color: rgb(255, 0, 111);
+    width: 240px;
+    height: 49px;
+    margin-top: 11px;
+}
+button{
+    padding: 10px 20px;
+}
+.decline-button{
+    background-color: white;
+}
+.add-container > div{
+    width: 100%;
+}
+.comment-container .user-comments-container{
+  width:69px ;  
+  height:69px ;
+  border-radius: 50%;
+}
+.comment-container{
+    display: flex;
+    align-items: flex-start;
+    width: 690px;
+}
+.comment-container .username{
+    color: black;
+    font-weight: 600;
+}
+.user-comment-container{
+    margin-right: 21px;
+   
+}
+.comment-text p{
+    line-height: 150%;
+}
+.add-container{
+    margin-bottom: 62px;
+}
+.option-container{
+    display: flex;
+    flex-direction: column;
+}
+.answer{
+    margin-bottom: 8px;
+    margin-top: 8px;
+    color: rgba(136, 136, 136, 1);
+}
+.hide-show{
+    margin-bottom: 17px;
+    color:rgba(255, 24, 80, 1) ;
+    font-weight: 500;
+}
+.user-comment-object{
+    width:36px ;
+    height: 36px;
+    margin-right: 21px;
+}
+.answer-reference{
+    color:rgba(255, 24, 80, 1) ;
+    line-height: 150%;
+}
+.redact{
+    color: rgba(136, 136, 136, 1);
+    font-weight: 500;
+}
+.comment-text{
+    margin-bottom: 8px;
+    margin-top: 6px;
+}
+a{
+    color: white;
+}

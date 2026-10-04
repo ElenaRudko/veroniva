@@ -1,0 +1,31 @@
+.last-news h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 23px;
+    margin-bottom:23px;
+}
+.last-news .little-news-container span{
+    color:rgb(163, 163, 163) ;
+}
+.last-news{
+    gap: 18px;
+}
+.little-news-container{
+    margin-bottom:18px;
+}
+.last-news .little-news-container p span{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.last-news .little-news-container p{
+     font-size: 12px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.last-news{
+    width: 241px;
+}
+*{
+font-family: "Montserrat", sans-serif;
+}
